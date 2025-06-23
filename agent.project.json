@@ -1,0 +1,29 @@
+{
+  "name": "stocai",
+  "version": "0.1.0",
+  "type": "trading",
+  "framework": "next-js-14",
+  "language": "typescript",
+  "ai_integration": {
+    "enabled": true,
+    "agent_capable": true,
+    "memory_enabled": true
+  },
+  "development": {
+    "port": 3000,
+    "hot_reload": true,
+    "typescript_strict": true
+  },
+  "ecosystem": {
+    "organization": "codai-ecosystem",
+    "monorepo": "codai-project",
+    "integration": "submodule"
+  },
+  "capabilities": [
+    "web-interface",
+    "api-endpoints",
+    "real-time-updates",
+    "responsive-design",
+    "ai-ready"
+  ]
+}
