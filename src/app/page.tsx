@@ -2,9 +2,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <h1 className="text-4xl font-bold text-center">
-          Welcome to STOCAI
-        </h1>
+        <h1 className="text-4xl font-bold text-center">Welcome to STOCAI</h1>
       </div>
 
       <div className="relative flex place-items-center">
@@ -13,7 +11,8 @@ export default function Home() {
             AI-Powered Service Ready
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            This stocai service is part of the Codai ecosystem and ready for AI agent enhancement.
+            This stocai service is part of the Codai ecosystem and ready for AI
+            agent enhancement.
           </p>
         </div>
       </div>
@@ -68,5 +67,5 @@ export default function Home() {
         </div>
       </div>
     </main>
-  )
+  );
 }
